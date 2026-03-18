@@ -27,5 +27,5 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           working-directory: ./  
-          start: npx http-server . --port 3000
-          wait-on: 'http://localhost:3000' 
+          start: npx http-server . --port 5500
+          wait-on: 'http://localhost:5500' 
