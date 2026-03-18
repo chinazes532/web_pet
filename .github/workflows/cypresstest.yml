@@ -26,6 +26,6 @@ jobs:
       - name: Запуск сервера и тестов Cypress
         uses: cypress-io/github-action@v6
         with:
-          working-directory: ./test  
+          working-directory: ./cypress  
           start: npx http-server . --port 3000
           wait-on: 'http://localhost:3000' 
