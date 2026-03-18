@@ -1,4 +1,4 @@
-let BASE_URL = "http://127.0.0.1:5500/index.html";
+let BASE_URL = "http://127.0.0.1:3000/index.html";
 
 describe("Заполнение формы", () => {
     beforeEach(() => {
